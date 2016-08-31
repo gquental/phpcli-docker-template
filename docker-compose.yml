@@ -1,0 +1,7 @@
+version: '2'
+services:
+  php:
+    build: ./php
+    volumes:
+      - "./php/application/src:/var/www/src"
+      - "./php/application/tests:/var/www/tests"
