@@ -5,3 +5,5 @@ services:
     volumes:
       - "./php/application/src:/var/www/src"
       - "./php/application/tests:/var/www/tests"
+      - "./php/application/composer.json:/var/www/composer.json"
+      - "./php/application/composer.lock:/var/www/composer.lock"
